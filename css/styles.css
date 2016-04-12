@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 
+	Flyer Creator
+	27.04.15, db
+	CSS-Styles
+*/
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #E8E8E8;
+	font-size: 12px;
+}
+
+fieldset{
+	width: 550px;
+	margin: 15px;
+}
+
+legend{
+	font-weight: bold;
+}
+
+/* Wrapper */
+#container {
+	width: 100%;
+	height: 100%;
+	display: inline;
+}
+
+#editor {
+	float: left;
+	background-color: #ccc;
+	border: 1px solid black;
+	width: 600px;
+	height: 842px;
+	margin-right: 20px;
+}
+
+#view {
+	border: 1px solid black;
+	background-color: #fff;
+	width: 595px;
+	height: 842px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+#formatLabel, #orientationLabel, #backgroundColorLabel, 
+#backgroundImageLabel, #imageLabel, #textLabel, 
+#fontFamilyLabel, #fontSizeLabel, #fontStyleLabel, 
+#textColorLabel{
+	float: left;
+	width: 130px;
+}
+
+#backgroundColorInput{
+	width: 80px;
+}
+
+#backgroundSpace{
+	width: 25px;
+}
+
+#imageLabel{
+	height: 50px;
+}
+
+#backgroundColorInput, #backgroundSpace, #backgroundImage, 
+#imageInput, #removeImageButton, #textInput, #addTextButton, 
+#removeTextButton, #fontFamilyInput, 
+#fontBoldInput, #fontItalicInput, #fontUnderlineInput, 
+#resetFlyer, #generatePDF{
+	float: left;
+}
+
+#textInput{
+	margin-right: 5px;
+}
+
+#fontBoldInput{
+	font-weight: bold;
+}
+
+#fontItalicInput{
+	font-style: italic;
+}
+
+#fontUnderlineInput{
+	text-decoration: underline;
+}
+
+.clearBoth{
+	clear:both;
+}
+
+/* 1. img-tag */
+#img1{
+	width: 150px;
+	height: 150px;
+}
+
+/* 1. div-tag */
+#image1 {
+	width: 150px;
+	height: 150px;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+
+/* 2. img-tag */
+#img2{
+	width: 150px;
+	height: 150px;
+}
+
+/* 2. div-tag */
+#image2 {
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.cursorStyle{
+	cursor: grab;
+}
+
+.paragraph{}
+
+.image{}
