@@ -1,4 +1,4 @@
 # FlyerCreator
 
 An Editor to create flyers as PDF
-- simple input form and drag & drop view
+- simple input form with drag & drop view
