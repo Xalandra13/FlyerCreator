@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Flyer Creator 5.8</title>
+  <title>Flyer Editor</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui-1.11.4/jquery-ui.css">
   <script src="js/jquery/jquery-1.11.2.min.js"></script>
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<h1>Flyer Creator</h1>
+<h1>Flyer Editor</h1>
 
 <div id="container">
 	<div id="editor">
